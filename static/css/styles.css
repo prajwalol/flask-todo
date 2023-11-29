@@ -1,0 +1,10 @@
+body{
+    font: 900;
+    color: rgb(11, 35, 248);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ol{
+    color:blueviolet;
+    font-style: italic;
+    
+}

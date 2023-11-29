@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>kha</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+
+<body>
+    <h1>To do</h1>
+    <form action="/todo" method="post">
+        <label for="todo">Todo:</label>
+        <input type="text" name="todo" id="todo" placeholder="What do you want to do?" required>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+
+    <h2>Todo lists</h2>
+    {% if kaam %}
+    <ul>
+        <!-- Loop through your 'kaam' items and display them here -->
+        {% for index, todo_item in enumerate(kaam) %}
+        <li>
+            <div>
+                {{ index + 1 }}. {{ todo_item }}
+                <form action="/remove_todo" method="post" style="display: inline;">
+                    <input type="hidden" name="id" value="{{ index }}">
+                    <input type="submit" name="remove" value="Remove">
+                </form>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>You are free</p>
+    {% endif %}
+</body>
+
+</html>
