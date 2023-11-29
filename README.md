@@ -19,7 +19,7 @@ FlaskTodo is a simple todo list web application built using Flask, a Python web 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/flasktodo.git
+    git clone https://github.com/prajwalol/flasktodo.git
     ```
 
 2. Navigate to the project directory:
