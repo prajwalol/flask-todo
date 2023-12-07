@@ -58,19 +58,18 @@ This project is currently under active development. Contributions are welcome! I
 
 ## Roadmap
 
-- Feature 1
-- Feature 2
-- ...
+- Add your todo's
+- track what's left to do
+- 
 
 ## Known Issues
 
-- Issue 1
-- Issue 2
-- ...
+-  
+- 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Eclipse Public License - v 2.0 - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
